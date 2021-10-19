@@ -1,6 +1,7 @@
 
 <link rel="stylesheet" href="estilos/consulta.css">
 <link rel="stylesheet" href="estilos/footer2.css">
+<link rel="stylesheet" href="estilos/estilos1.css">
 
 <footer>
     <div id="footer_prin">
