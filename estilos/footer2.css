@@ -1,0 +1,25 @@
+/*Pie de paginas para todas-partials*/
+footer {
+   
+    width: 100%;
+    height: 75px;
+    background-color:blue;
+    margin-bottom: 0px;
+    margin-top: 300PX;
+    
+}
+
+footer #footer_prin {
+    padding-top: 8px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+    position: relative;
+}
+
+footer .footer .texto_fot {
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+}

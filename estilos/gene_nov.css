@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    background-color: #faf6f7;
+}
+
+header .lado_izq {
+    margin-top: 2px;
+    float: left;
+    width: 10%;
+    height: 120px;
+}
+
+header .lado_central {
+    margin-top: 2px;
+    float: left;
+    width: 80%;
+    height: 120px;
+}
+
+header .lado_der {
+    margin-top: 2px;
+    float: right;
+    width: 10%;
+    height: 120px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: arial;
+    background-image: url('../imag/fondo1.jpg');
+}
+.navbar{
+    background-color: gray;
+    width: 100vw;
+    font-size: 15px;
+    text-align: center;
+    
+    
+    
+}
+
+.navbar ul>li{
+    display: inline-block;
+    padding: 15px;
+    color: #f0e3e6;
+    
+    
+    
+}
+.navbar ul>li>a{
+    text-decoration: none;
+    
+    margin-top: 10px;
+   
+    
+    
+}
+
+.nav__menu--title{
+    width: 200px;
+    color: #faf6f7;
+    font-weight: bold;
+   
+    
+}
+.nav__submenu{
+    display: none;
+    
+}
+
+.nav__menu .nav__menu--title:hover {
+    background-color:#a7a7a7;   
+    
+}
+
+.nav__menu--title:hover .nav__submenu{
+    background-color: #a7a7a7;
+    width: 200px;
+    display: grid;
+    position: absolute;
+    
+}
+
+.nav__submenu li:hover{
+    background-color: #758185;
+    
+}
+h1 {
+    float: center;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #dd0b16;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: -2px -2px 1px #615f5f;
+    text-decoration-line: underline;
+}
+
+.formulario {
+    margin-top: none;
+    display: flex;
+    height: 500px;
+}
+
+.formulario img {
+    margin-top: 50px;
+    float: none;
+    margin-left: 200px;
+}
+
+.formulario2 {
+    float: left;
+}
+
+.form {
+    width: 40%;
+    height: 720px;
+    background: #615f5f;
+    margin-top: 50px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #fa2d2d;
+    color: white;
+    margin-left: 20px;
+}
+
+.form .datos {
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.form-login h4 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #c43e44;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #fcf8f8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #e42b2b;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    border-radius: 35px 0px 35px 0px;
+}
+
+.form-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.form-login a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: red;
+}
+
+footer #footer_prin {
+    padding-top: 8px;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
+
+footer .footer .texto_fot {
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+}
+
+.buttons:hover {
+    cursor: pointer;
+}
+h1 {
+    float: center;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #dd0b16;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: -2px -2px 1px #615f5f;
+    text-decoration-line: underline;    
+}
